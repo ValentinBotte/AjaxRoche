@@ -12,9 +12,9 @@
     </head>
     
     <body>
+
         
-    <script url="creationXHR.js" defer></script>
-    <script url="ajax.js" defer></script>
+    
         
         
         <fieldset>
@@ -22,17 +22,31 @@
             
             <label for="ville">Ville : </label>
             
-       
+            <select name="ville" id="ville">
+            
+            </select>
             
             <label for="sexe">Sexe : </label>
             
           
             
-            <label for="code_proejt">Code projet : </label>
+            <label for="code_projet">Code projet : </label>
             
         
             
         </fieldset>
+        
+                
+    <script src="creationXHR.js"></script>
+    <script src="ajax.js"></script>
+        
+        <script>
+        
+          createVillesSelect();
+
+        </script>
+        
+   
         
     </body>
     
