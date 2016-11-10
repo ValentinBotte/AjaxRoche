@@ -22,17 +22,15 @@
             
             <label for="ville">Ville : </label>
             
-            <select name="ville" id="ville">
-            
-            </select>
+            <select name="ville" id="ville"></select>
             
             <label for="sexe">Sexe : </label>
             
-          
+            <select name="sexe" id="sexe"></select>
             
             <label for="code_projet">Code projet : </label>
             
-        
+            <select name="code_projet" id="code_projet"></select>
             
         </fieldset>
         
@@ -42,7 +40,7 @@
         
         <script>
         
-          createVillesSelect();
+          getAllSelect();
 
         </script>
         
